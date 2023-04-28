@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/image3.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Full Stack (Pty) Ltd Software Engineering Intern",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Worked with a team of 5 other interns on the Sanlam Savings Jar app. Established the native, cross-platform rendering of a 3D model on a mobile device using React Native and other platforms. Had the opportunity to practice interpersonal skills in the workplace and experience how an organised software development company operates.",
+    url: "",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Toastmasters International Public Speaking Certificate",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Attended a Toastmaster’s workshop held at my school in which a certified Toastmasters member guided us through a thorough multiple week course. At the end of the course the participants each presented a speech to an audience and three judges. After which, I received a Toastmaster certificate. The experience taught me in-depth public speaking and communication skills.",
+    url: "",
   },
   {
-    title: "My Resume Site",
+    title: "Ambassador Leaders: Harvard Leadership Program (Boston, USA)",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Attended this week-long event with a few other students from my school. Had the opportunity to network with many other international students. Students were split into groups and partook in various activities guided by a mentor to develop leadership skills. I developed a lot as a person after this event and went home as a more confident person.",
+    url: "",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "UCT Developer’s Society Member",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Attended the society’s events to network with similar minded peers in the computer science field and learn from the educational content of the events.",
+    url: "",
   },
 ];
 
