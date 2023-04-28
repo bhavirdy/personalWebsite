@@ -29,7 +29,7 @@ const siteProps = {
   email: "rddbha002@myuct.ac.za",
   gitHub: "bhavirdy",
   instagram: "",
-  linkedIn: "https://www.linkedin.com/in/bhavirdy/",
+  linkedIn: "bhavirdy/",
   medium: "",
   twitter: "",
   youTube: "",
