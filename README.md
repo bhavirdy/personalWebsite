@@ -2,7 +2,7 @@
 
 ## About this portfolio template
 
-This repo was built from a GitHub template of a JavaScript personal portfolio frontend web application using the React framework. 
+This repo was built from a GitHub template of a *JavaScript personal portfolio* frontend web application using the *React framework*. 
 
 The Github template can be found at: https://github.com/education/codespaces-project-template-js
 
