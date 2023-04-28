@@ -27,7 +27,7 @@ const siteProps = {
   name: "Bhavi Reddy",
   title: "Software Developer",
   email: "rddbha002@myuct.ac.za",
-  gitHub: "https://github.com/bhavirdy",
+  gitHub: "bhavirdy",
   instagram: "",
   linkedIn: "https://www.linkedin.com/in/bhavirdy/",
   medium: "",
