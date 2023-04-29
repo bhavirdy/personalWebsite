@@ -15,8 +15,8 @@ const imageAltText = "white abstract background with tree branch";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a 3rd year Computer Science & Business Computing student studying at the University of Cape Town. My skills include:";
-
+  "Hey there, I'm Bhavi. I've been spending the past few years studying computer science and exploring my passion for innovation and technology.";
+const description2 = "My values include:";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -52,6 +52,7 @@ const About = () => {
       >
         <h2>About Myself</h2>
         <p className="large">{description}</p>
+        <p className="large">{description2}</p>
         <hr />
         <ul
           style={{
