@@ -11,19 +11,6 @@
 import React from "react";
 
 /**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
-import image from "../images/image3.jpg";
-
-const imageAltText = "desktop with books and laptop";
-
-/**
  * Project list
  *
  * An array of objects that will be used to display for your project
@@ -33,25 +20,25 @@ const projectList = [
   {
     title: "Full Stack (Pty) Ltd Software Engineering Intern",
     description:
-      "Worked with a team of 5 other interns on the Sanlam Savings Jar app. Established the native, cross-platform rendering of a 3D model on a mobile device using React Native and other platforms. Had the opportunity to practice interpersonal skills in the workplace and experience how an organised software development company operates.",
+      "Collaborated with a team of 5 interns to assist with developing the Sanlam Savings Jar app, implementing cross-platform rendering of a 3D model on mobile devices using React Native and other platforms. Gained exposure to an organized software development environment, utilizing tools such as Azure DevOps, while developing interpersonal skills in the workplace.",
     url: "",
   },
   {
     title: "Toastmasters International Public Speaking Certificate",
     description:
-      "Attended a Toastmaster’s workshop held at my school in which a certified Toastmasters member guided us through a thorough multiple week course. At the end of the course the participants each presented a speech to an audience and three judges. After which, I received a Toastmaster certificate. The experience taught me in-depth public speaking and communication skills.",
+      "Completed a comprehensive multiple-week course on public speaking and communication skills, culminating in a speech presented to an audience and judges and receiving a Toastmasters certificate.",
     url: "",
   },
   {
     title: "Ambassador Leaders: Harvard Leadership Program (Boston, USA)",
     description:
-      "Attended this week-long event with a few other students from my school. Had the opportunity to network with many other international students. Students were split into groups and partook in various activities guided by a mentor to develop leadership skills. I developed a lot as a person after this event and went home as a more confident person.",
+      "Participated in a week-long event with international students, developing leadership skills through group activities guided by a mentor. Gained confidence and personal growth through the experience.",
     url: "",
   },
   {
     title: "UCT Developer’s Society Member",
     description:
-      "Attended the society’s events to network with similar minded peers in the computer science field and learn from the educational content of the events.",
+      "Active member of the society, attending events and networking with like-minded peers in the computer science field to stay up-to-date with the latest trends and technologies.",
     url: "",
   },
 ];
@@ -61,18 +48,7 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{
-              height: "90%",
-              width: "100%",
-              objectFit: "cover",
-              animation: "1s ease-out 0s 1 slideIn",
-            }}
-            alt={imageAltText}
-          />
-        </div>
+        <div style={{ maxWidth: "40%", alignSelf: "center" }}></div>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
