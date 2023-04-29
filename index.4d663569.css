@@ -122,14 +122,4 @@ img.socialIcon {
   width: 30px;
 }
 
-@keyframes slideInLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
 /*# sourceMappingURL=index.4d663569.css.map */
